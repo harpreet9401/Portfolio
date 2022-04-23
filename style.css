@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Square+Peg&display=swap');
+
+.flex{
+        display: flex;
+        font-weight: bold;
+}        
+ 
+.j-c{
+    justify-content: center;
+}
+
+.j-sb{
+    justify-content: space-between;
+}
+
+.a-c{
+    align-items: center;
+}
+
+:root{
+
+--pink:FE8F8F;
+--ye11ow:FFEDD3;
+
+}
+
+.container{
+width: 1200px;
+margin-top: 0;
+margin-bottom: 0;
+margin-left:auto;
+margin-right:auto;
+
+background-color: var(--ye11ow);
+}
+
+
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    background-color: var(--ye11ow);
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+
+}
+
+a{
+margin-left: 10px;
+}
+
+.left.flex.a-c{
+    margin-left: 20px;
+    padding: 20px; 
+    word-spacing:30px ;
+}
+
+
+.btn{
+    padding: 5px  20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid transparent ;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 250px;
+}
+
+.btn-primary{
+    background-color: var(--ye11ow) ;
+    colour: white ;
+}
+.btn-primary:hover{
+    background-color: var(--pink) ;
+    border-color: white;
+    color: black;
+}
+
+.btn-secondary{
+    background-color: var(--ye11ow) ;
+    colour: white ;
+}
+.btn-secondary:hover{
+    background-color: var(--pink) ;
+    border-color: white;
+    color: black;
+}
+
+ .right{
+     display: flex;
+     colour:var(--pink);
+     flex-direction: column;
+     justify-content: center;
+     text-align: right;
+     align-items: flex-end;
+ }
+
+ .Skills p{
+     font-size: 15px;
+     font-weight: 500;
+     colour:pink;
+ }
+
+ .card{
+     width: 500px;
+     position: relative;
+     background-color: bisque;
+     padding: 20px 0 ;
+     margin: 20px ;
+     transition: 0.5s;
+     border-width: 0px;
+     border-style: solid;
+     border-color: white;
+     box-shadow: 23px 23px 14px -14px gray ;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+ 
+ .card:hover{
+     background-color: white;
+     color: black;
+     box-shadow: 15px 23px 36px 0px grey;
+ }
+ .card img{
+     position: absolute;
+     top: -10px;
+     right : 0px;
+ }
+
+ section{
+    background-color: var(--ye11ow);
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+
+}
+.imglogo{
+    margin-top: 2.5rem;
+}
